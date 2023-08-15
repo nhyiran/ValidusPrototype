@@ -14,6 +14,7 @@
 		BD60F8472A8BD0420051A7F1 /* ValidusPrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60F8462A8BD0420051A7F1 /* ValidusPrototypeTests.swift */; };
 		BD60F8512A8BD0420051A7F1 /* ValidusPrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60F8502A8BD0420051A7F1 /* ValidusPrototypeUITests.swift */; };
 		BD60F8532A8BD0420051A7F1 /* ValidusPrototypeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60F8522A8BD0420051A7F1 /* ValidusPrototypeUITestsLaunchTests.swift */; };
+		BDAB6F322A8BD42000AD2AFB /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB6F312A8BD42000AD2AFB /* HomeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BD60F84C2A8BD0420051A7F1 /* ValidusPrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidusPrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD60F8502A8BD0420051A7F1 /* ValidusPrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidusPrototypeUITests.swift; sourceTree = "<group>"; };
 		BD60F8522A8BD0420051A7F1 /* ValidusPrototypeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidusPrototypeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDAB6F312A8BD42000AD2AFB /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				BD60F8352A8BD03F0051A7F1 /* ValidusPrototypeApp.swift */,
 				BD60F8372A8BD03F0051A7F1 /* ContentView.swift */,
+				BDAB6F312A8BD42000AD2AFB /* HomeScreen.swift */,
 				BD60F8392A8BD0410051A7F1 /* Assets.xcassets */,
 				BD60F83B2A8BD0410051A7F1 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				BD60F8382A8BD03F0051A7F1 /* ContentView.swift in Sources */,
 				BD60F8362A8BD03F0051A7F1 /* ValidusPrototypeApp.swift in Sources */,
+				BDAB6F322A8BD42000AD2AFB /* HomeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,12 +8,38 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var name = ""
+    
     var body: some View {
-        VStack {
-        
-            Text("Hello, world!")
+        NavigationStack {
+            
+            ZStack {
+                VStack {
+                    Spacer()
+                    Text("VALIDUS")
+                        .font(.largeTitle)
+                        .fontWeight(.medium)
+                        .foregroundColor(Color.black)
+                    
+                    
+                    
+                    TextField("Enter name here...", text: $name)
+                        .multilineTextAlignment(.center)
+                        .font(.title)
+                        .border(Color.gray, width: 1)
+                        .padding(.all)
+                    
+                        NavigationLink(destination: HomeScreen(name: name)) {
+                            Text("Next")
+                        }
+                    
+                    
+                    
+                    Spacer ()
+                    
+                }
+            }
         }
-        .padding()
     }
 }
 
